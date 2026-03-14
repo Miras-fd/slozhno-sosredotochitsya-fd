@@ -138,7 +138,7 @@
 .main {
   display: grid;
   gap: var(--section-gap);
-  padding: 40px var(--page-padding);
+  padding: 64px var(--page-padding);
 }
 
 .content-section {
@@ -159,7 +159,7 @@
 
 .card {
   display: grid;
-  gap: 13px;
+  gap: 10px;
 }
 
 .card__title,
