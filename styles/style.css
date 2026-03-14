@@ -159,7 +159,7 @@
 
 .card {
   display: grid;
-  gap: 10px;
+  gap: 13px;
 }
 
 .card__title,
