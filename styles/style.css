@@ -126,6 +126,7 @@
   justify-self: end;
   align-self: center;
   inline-size: 355px;
+  padding: 0px;
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height);
 }
@@ -161,7 +162,7 @@
 
 .card {
   display: grid;
-  gap: 10px;
+  gap: 13px;
   align-self: start;
 }
 
