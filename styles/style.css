@@ -53,22 +53,23 @@
 
 .header__rec {
   position: absolute;
-  inset-block-start: var(--page-padding);
-  inset-inline-end: var(--page-padding);
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  top: var(--page-padding);
+  right: var(--page-padding);
   color: var(--accent-color);
-  line-height: 1;
+  line-height: 1.39;
 }
 
 .header__rec::after {
   content: "";
+  display: inline-block;
   inline-size: 9px;
   block-size: 9px;
+  margin-inline-start: 10px;
+  margin-block-end: 2px;
   border-radius: 50%;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
+  vertical-align: middle;
 }
 
 .header__theme-menu {
