@@ -53,23 +53,23 @@
 
 .header__rec {
   position: absolute;
-  top: var(--page-padding);
-  right: var(--page-padding);
+  top: 20px;
+  right: 20px;
   color: var(--accent-color);
-  line-height: 1.39;
+  font-size: var(--main-font-size);
+  line-height: 25px;
 }
 
 .header__rec::after {
   content: "";
-  display: inline-block;
-  inline-size: 9px;
-  block-size: 9px;
-  margin-inline-start: 10px;
-  margin-block-end: 2px;
+  position: absolute;
+  top: 8px;
+  left: calc(100% + 3px);
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
-  vertical-align: middle;
 }
 
 .header__theme-menu {
